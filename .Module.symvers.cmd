@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/arp_traffic_inspector/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ubuntu/arp_traffic_inspector/Module.symvers -T /home/ubuntu/arp_traffic_inspector/modules.order -i Module.symvers -e 
