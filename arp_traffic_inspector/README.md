@@ -11,3 +11,4 @@ sudo apt install build-essential linux-headers-$(uname -r)
 make
 sudo insmod arp_traffic_inspector.ko
 
+[Download ARP Traffic Inspector Guide](./ARP_Traffic_Inspector_Guide.docx)
