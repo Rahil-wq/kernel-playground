@@ -1,7 +1,0 @@
-*.cmd
-*.ko
-*.mod.*
-*.o
-Module.symvers
-modules.order
-ARP_Traffic_Inspector_Guide.docx
