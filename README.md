@@ -1,13 +1,8 @@
 # ARP Traffic Inspector
+This kernel module inspects ARP packets using Netfilter.
+This kernel module inspects ARP packets using Netfilter.
+## Guide
 
-## Objective
-A Linux kernel module to detect and count ARP request/reply packets using Netfilter hooks.
+For detailed setup and usage instructions, see the [Guide](guide.md).
 
-## Setup Instructions
-
-```bash
-sudo apt update
-sudo apt install build-essential linux-headers-$(uname -r)
-make
-sudo insmod arp_traffic_inspector.ko
-
+[Guidance]("C:\Users\seyed\Downloads\ARP_Traffic_Inspector_Guide.docx")

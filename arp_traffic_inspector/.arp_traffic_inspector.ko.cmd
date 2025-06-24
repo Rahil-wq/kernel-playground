@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/arp_traffic_inspector/arp_traffic_inspector.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/arp_traffic_inspector/arp_traffic_inspector.ko /home/ubuntu/arp_traffic_inspector/arp_traffic_inspector.o /home/ubuntu/arp_traffic_inspector/arp_traffic_inspector.mod.o
