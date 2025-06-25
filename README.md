@@ -15,8 +15,8 @@ Install necessary tools:
 2. Create the Module Files
 a. Create the folder:
 
-	mkdir arp_traffic_inspector
-	cd arp_traffic_inspector
+		mkdir arp_traffic_inspector
+		cd arp_traffic_inspector
 
 b. Create arp_traffic_inspector.c: 
 	
@@ -25,12 +25,12 @@ b. Create arp_traffic_inspector.c:
 
 4. Compile the Module
 
-	Make
+		Make
 
 5. Insert the Module
 Load the module into the kernel:
 
-	sudo insmod arp_traffic_inspector.ko
+		sudo insmod arp_traffic_inspector.ko
 
 Check kernel log:
 
