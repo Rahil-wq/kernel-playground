@@ -6,17 +6,17 @@ This kernel module inspects ARP packets using Netfilter.
 
 ARP Traffic Inspector – Kernel Module
 
-1. Prepare the Environment
-Install necessary tools:
+1. Prepare the Environment ,Install necessary tools:
 
 		sudo apt update
 
 		sudo apt install build-essential linux-headers-$(uname -r)
 
 2. Create the Module Files
-a. Create the folder:
+	a. Create the folder:
 
 		mkdir arp_traffic_inspector
+
 		cd arp_traffic_inspector
 
 b. Create arp_traffic_inspector.c: 
@@ -29,7 +29,7 @@ b. Create arp_traffic_inspector.c:
 		Make
 
 5. Insert the Module
-Load the module into the kernel:
+	Load the module into the kernel:
 
 		sudo insmod arp_traffic_inspector.ko
 
@@ -38,18 +38,19 @@ Check kernel log:
 	dmesg | tail
 
 6. Generate ARP Traffic
-Ping gateway
 
-	ping -c 1 192.168.1.1
+	Ping gateway
+
+		ping -c 1 192.168.1.1
 
 Then check kernel messages:
 
 	dmesg | tail
 
 7. Remove the Module
-unload the module:
+	unload the module:
 
-	sudo rmmod arp_traffic_inspector
+		sudo rmmod arp_traffic_inspector
 
 
 GitHub Instructions
@@ -61,11 +62,13 @@ GitHub Instructions
 2-	Stage and commit files:
 
 	git add .
+
 	git commit -m "Add ARP Traffic Inspector module"
  
 3-	Connect to my forked GitHub repo:
 
 	git branch -M main
+
 	git remote add origin https://github.com/YOUR_USERNAME/kernel-playground.git
 
 4-	Push to GitHub:
