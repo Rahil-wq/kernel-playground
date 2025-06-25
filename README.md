@@ -6,13 +6,16 @@ This kernel module inspects ARP packets using Netfilter.
 
 ARP Traffic Inspector – Kernel Module
 
-1. Prepare the Environment ,Install necessary tools:
+1. Prepare the Environment
+ 
+	Install necessary tools:
 
 		sudo apt update
 
 		sudo apt install build-essential linux-headers-$(uname -r)
 
 2. Create the Module Files
+
 	a. Create the folder:
 
 		mkdir arp_traffic_inspector
