@@ -22,7 +22,7 @@ ARP Traffic Inspector – Kernel Module
 
 		cd arp_traffic_inspector
 
-b. Create arp_traffic_inspector.c: 
+	b. Create arp_traffic_inspector.c: 
 	
 3. Create the Makefile
 
@@ -36,9 +36,9 @@ b. Create arp_traffic_inspector.c:
 
 		sudo insmod arp_traffic_inspector.ko
 
-Check kernel log:
+	Check kernel log:
 
-	dmesg | tail
+		dmesg | tail
 
 6. Generate ARP Traffic
 
@@ -46,7 +46,7 @@ Check kernel log:
 
 		ping -c 1 192.168.1.1
 
-Then check kernel messages:
+	Then check kernel messages:
 
 	dmesg | tail
 
@@ -57,6 +57,7 @@ Then check kernel messages:
 
 
 GitHub Instructions
+
 
 1-	Initialize Git:
 
